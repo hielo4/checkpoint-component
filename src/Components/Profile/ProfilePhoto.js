@@ -5,8 +5,8 @@ import img from '../../images/project.jpg'
 
 function ProfilePhoto() {
     return (
-        <div className='d-flex justify-content-start'>
-        <img className='img-fluid img-thumbnail rounded-circle ' src={img}/>
+        <div className='d-flex justify-content-center '>
+        <img className='mt-5 img-fluid rounded-circle border border-primary border-3' src={img}/>
    </div>   );
 }
 
